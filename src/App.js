@@ -6,10 +6,12 @@ import Login from './components/Login';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Register from './components/Register';
 import Addbook from './components/Addbook';
+import ViewBook from './components/ViewBook';
 function App() {
   return (
     <div>
 <Addbook/>
+<ViewBook/>
 <BrowserRouter>
 <Routes>
 <Route path="/" exact element={<Login/>}/>
