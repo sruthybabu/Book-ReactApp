@@ -10,13 +10,13 @@ import ViewBook from './components/ViewBook';
 function App() {
   return (
     <div>
-<Addbook/>
-<ViewBook/>
+
 <BrowserRouter>
 <Routes>
 <Route path="/" exact element={<Login/>}/>
 <Route path="/regiser" exact element={<Register/>}/>
-
+<Route path="/add" exact element={<Addbook/>}/>
+<Route path="/view" exact element={<ViewBook/>}/>
 </Routes>
 </BrowserRouter>
 
