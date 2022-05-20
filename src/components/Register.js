@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Register = () => {
     var [newname,setNewname]=useState("")
@@ -39,7 +40,7 @@ const Register = () => {
                     
                 </div>
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button onClick={subData} className="btn btn-primary">REGISTER</button>
+                    <Link to="/add"><button onClick={subData} className="btn btn-primary">REGISTER</button></Link>
                 </div>
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <a href="/" className="btn btn-primary">BACK TO LOGIN</a>
