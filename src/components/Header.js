@@ -20,6 +20,10 @@ const Header = () => {
             <Link to="/view" className="nav-link">View Book</Link>
          
         </li>
+        <li className="nav-item">
+            <Link to="/" className="nav-link">Logout</Link>
+         
+        </li>
        
       </ul>
     </div>
